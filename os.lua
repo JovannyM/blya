@@ -1,3 +1,2 @@
-local variable = require("ge/pop");
-
-print(variable.s);
+local netApi = require("netApi/netApi");
+print(netApi.get_params);
