@@ -1,5 +1,7 @@
+local params = "THis is new params";
+
 local function get_params()
-    return "Net api require params";
+    return params;
 end
 
 return { get_params = get_params };
